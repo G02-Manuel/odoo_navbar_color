@@ -1,0 +1,68 @@
+/* VARIABLES */
+/*==============================*/
+:root {
+    --primary-color: transparent;
+}
+
+.o_main_navbar {
+    background-color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color);
+}
+
+.nav_color_container {
+    border-radius: 8px !important;
+    width: 284px;
+    max-height: 144px !important;
+    padding: 1rem!important;
+}
+
+.nav_color_container .ncolor_header {
+    margin-bottom: 1rem;
+}
+
+.o_navbar_color_menu .toggle_color {
+    height: 24px;
+    width: 24px;
+    cursor: pointer;
+}
+
+.o_main_navbar {
+    > a:hover,
+    > a:focus,
+    > button:hover,
+    > ul > li > a:hover,
+    > ul > li > label:hover,
+    .show .dropdown-toggle,
+     {
+        transform: scale(1.2);
+        background-color: unset !important;
+    }
+
+    .o_navbar_color {
+        border-radius: 50%;
+        border: 2px solid #fff;
+        cursor: pointer;
+        box-shadow: 0px 0px 8px #ffffffa8;
+        width: 24px;
+        height: 24px;
+    }
+}
+
+.o_colorpicker_widget {
+    .o_slider_pointer,
+    .o_opacity_pointer,
+    .o_picker_pointer,
+    .o_color_preview,
+    .o_hex_div,
+    .o_rgba_div,
+    .o_color_slider,
+    .o_opacity_slider
+     {
+        border-radius: 8px;
+    }
+
+    .o_color_pick_area {
+        box-shadow: 0px 0px 16px 2px #D3D3D3;
+    }
+
+}
